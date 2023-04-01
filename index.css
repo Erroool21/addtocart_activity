@@ -5,8 +5,10 @@
 }
 body {
     background-image: linear-gradient(black, white);
-    height: 200vh;
-    background-size: cover !important;;
+    height: 100vh !important;
+    background-size:contain !important;
+   
+    
 }
 
 .navbar {
@@ -39,6 +41,7 @@ a {
 
 .card-items {
     margin: 20px;
+    max-width: 100%;
 }
 
 .card-items {
@@ -77,9 +80,18 @@ footer {color: white !important;
     top: 100px;
 }
 
+.container2 {
+    margin-bottom: 30px;
+}
 
 @media only screen and (min-width: 1080px){
     .cartdiv {
         position: fixed !important;
        }
+}
+
+@media only screen and (max-width: 400px){
+  ul li .cartdiv > h4 {
+    color: black !important;
+  }
 }
