@@ -1,0 +1,85 @@
+* {
+   
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif; 
+}
+body {
+    background-image: linear-gradient(black, white);
+    height: 200vh;
+    background-size: cover !important;;
+}
+
+.navbar {
+    background: linear-gradient(rgb(207, 205, 205), black);
+}
+.navbar a {
+    margin-left: 10px
+}
+
+.navbar-brand {
+    color: white !important;
+    margin-right: 10px;
+    font-size: 20px;
+}
+h1 {
+    color: white !important;
+    text-shadow: 2px 2px #000000 !important;
+}
+
+.btn-primary {
+    width: 90px;
+    height: 30px;
+
+}
+
+a {
+    font-size: 10px !important;
+    text-align: center;
+}
+
+.card-items {
+    margin: 20px;
+}
+
+.card-items {
+    gap: 25px;
+}
+
+.card-body {
+    background-color: rgba(145, 143, 143, 0.636) !important;;
+}
+
+li {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.294);
+    border-radius: 5px;
+}
+/* footer */
+
+footer {color: white !important;
+}
+.policy a {
+    font-size: 15px !important;
+    text-decoration: none !important;
+    color: white !important;;
+}
+
+.footer-logo img {
+    height: 50px !important;
+}
+
+#footer-account a {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+}
+.cartdiv {
+    top: 100px;
+}
+
+
+@media only screen and (min-width: 1080px){
+    .cartdiv {
+        position: fixed !important;
+       }
+}
